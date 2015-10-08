@@ -1,24 +1,6 @@
-[![Build Status](https://travis-ci.org/ingadhoc/odoo-addons.svg?branch=8.0)](https://travis-ci.org/ingadhoc/odoo-addons)
-[![Coverage Status](https://coveralls.io/repos/ingadhoc/odoo-addons/badge.png?branch=8.0)](https://coveralls.io/r/ingadhoc/odoo-addons?branch=8.0)
+# Account check - Odoo module.
 
-# odoo-addons
-
-## Installation
-
-### Dependencies
-
-    sudo pip install -r requirements.txt
-
-If you don't have Pip, find it here: http://pypi.python.org/pypi/pip
-
-## Contributing
-We follow some guidelines and advice than [Odoo Argentina](https://github.com/ingadhoc/odoo-argentina/wiki). In summary:
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+This module is a alone fork of account\_check from https://github.com/ingadhoc/odoo-addons
 
 ## Credits
 <p>
