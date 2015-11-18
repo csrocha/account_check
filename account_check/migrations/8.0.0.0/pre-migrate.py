@@ -25,4 +25,9 @@ SELECT id, create_uid, create_date, write_date, write_uid,
  clearing_date
 FROM account_third_check
         """)
+
+    cr.execute("select max(id) FROM account_check")
+    take_last_check = cr.fetchall()[0][0]
+    cr.execute("ALTER SEQUENCE account_check_id_seq RESTART WITH %s;", (take_last_check,))
+
     pass
